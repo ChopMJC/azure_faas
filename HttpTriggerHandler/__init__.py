@@ -1,6 +1,7 @@
 import logging
-import datetime 
+
 import azure.functions as func
+import datetime 
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
